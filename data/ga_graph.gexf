@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-06-13">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lexi" label="lexi" />
+      <node id="sloan" label="sloan" />
+      <node id="karev" label="karev" />
+      <node id="owen" label="owen" />
+      <node id="yang" label="yang" />
+      <node id="altman" label="altman" />
+      <node id="torres" label="torres" />
+      <node id="arizona" label="arizona" />
+      <node id="derek" label="derek" />
+      <node id="grey" label="grey" />
+      <node id="izzie" label="izzie" />
+      <node id="o'malley" label="o'malley" />
+      <node id="colin" label="colin" />
+      <node id="preston" label="preston" />
+      <node id="kepner" label="kepner" />
+      <node id="addison" label="addison" />
+      <node id="nancy" label="nancy" />
+      <node id="olivia" label="olivia" />
+      <node id="mrs. seabury" label="mrs. seabury" />
+      <node id="chief" label="chief" />
+      <node id="adele" label="adele" />
+      <node id="ellis grey" label="ellis grey" />
+      <node id="thatch grey" label="thatch grey" />
+      <node id="susan grey" label="susan grey" />
+      <node id="bailey" label="bailey" />
+      <node id="tucker" label="tucker" />
+      <node id="hank" label="hank" />
+      <node id="denny" label="denny" />
+      <node id="finn" label="finn" />
+      <node id="steve" label="steve" />
+      <node id="ben" label="ben" />
+      <node id="avery" label="avery" />
+    </nodes>
+    <edges>
+      <edge source="lexi" target="sloan" id="0" />
+      <edge source="lexi" target="karev" id="1" />
+      <edge source="lexi" target="avery" id="2" />
+      <edge source="sloan" target="torres" id="3" />
+      <edge source="sloan" target="altman" id="4" />
+      <edge source="sloan" target="addison" id="5" />
+      <edge source="sloan" target="nancy" id="6" />
+      <edge source="karev" target="torres" id="7" />
+      <edge source="karev" target="izzie" id="8" />
+      <edge source="karev" target="kepner" id="9" />
+      <edge source="karev" target="addison" id="10" />
+      <edge source="karev" target="olivia" id="11" />
+      <edge source="karev" target="mrs. seabury" id="12" />
+      <edge source="owen" target="yang" id="13" />
+      <edge source="owen" target="altman" id="14" />
+      <edge source="yang" target="colin" id="15" />
+      <edge source="yang" target="preston" id="16" />
+      <edge source="torres" target="arizona" id="17" />
+      <edge source="torres" target="o'malley" id="18" />
+      <edge source="derek" target="grey" id="19" />
+      <edge source="derek" target="addison" id="20" />
+      <edge source="grey" target="o'malley" id="21" />
+      <edge source="grey" target="finn" id="22" />
+      <edge source="grey" target="steve" id="23" />
+      <edge source="izzie" target="o'malley" id="24" />
+      <edge source="izzie" target="hank" id="25" />
+      <edge source="izzie" target="denny" id="26" />
+      <edge source="o'malley" target="olivia" id="27" />
+      <edge source="chief" target="adele" id="28" />
+      <edge source="chief" target="ellis grey" id="29" />
+      <edge source="ellis grey" target="thatch grey" id="30" />
+      <edge source="thatch grey" target="susan grey" id="31" />
+      <edge source="bailey" target="tucker" id="32" />
+      <edge source="bailey" target="ben" id="33" />
+    </edges>
+  </graph>
+</gexf>
