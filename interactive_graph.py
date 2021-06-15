@@ -66,12 +66,14 @@ class CreatePlotlyViz:
             node_text.append(f'{node} : {len(adjacencies)}')
         return node_adjacencies, node_text
 
-    def fig(self):
+    def fig(self, width = 800, height = 800):
         edge_trace = self.edge_trace()
         node_trace = self.node_trace()
         node_trace.marker.color, node_trace.text = self.node_label_color()
         fig = go.Figure(data=[edge_trace, node_trace],
             layout=go.Layout(
+            width = width,
+            height = height,
             showlegend=False,
             hovermode='closest',
             margin=dict(b=20,l=5,r=5,t=40),
